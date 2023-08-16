@@ -1874,5 +1874,9 @@
       <field type="uint16_t[4]" name="rpm" units="rpm">RPM (eRPM).</field>
       <field type="uint16_t[4]" name="count">count of telemetry packets received (wraps at 65535).</field>
     </message>
+    <message id="13333" name="SWITCH_GPS">
+      <description>Switch GPS status to "on/off"</description>
+      <field type="uint8_t" name="status">GPS status: 1 - on; 0 - off</field>
+    </message>
   </messages>
 </mavlink>
